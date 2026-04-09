@@ -1,0 +1,135 @@
+:root {
+  color-scheme: dark light;
+}
+
+html[data-theme="dark"] {
+  --bg: #0f1115;
+  --surface: #171a21;
+  --card: #1d2330;
+  --text: #e9edf4;
+  --muted: #a7b1c2;
+  --border: #2a3140;
+  --link: #8ab4ff;
+  --button-bg: #242b3a;
+  --button-text: #e9edf4;
+}
+
+html[data-theme="light"] {
+  --bg: #ffffff;
+  --surface: #f6f8fb;
+  --card: #f1f5ff;
+  --text: #1d232f;
+  --muted: #5a6474;
+  --border: #d8deea;
+  --link: #185abc;
+  --button-bg: #e8edf7;
+  --button-text: #1d232f;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.site-header,
+.site-footer,
+.post-list > li,
+.post-content,
+.page-content {
+  border-color: var(--border);
+}
+
+.site-header,
+.site-footer {
+  background-color: var(--surface);
+}
+
+a {
+  color: var(--link);
+}
+
+.site-title,
+.site-nav .page-link,
+.post-meta,
+.footer-col-wrapper,
+.rss-subscribe {
+  color: var(--text);
+}
+
+.theme-toggle {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 999;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  background: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.theme-toggle:hover {
+  filter: brightness(1.06);
+}
+
+.profile-photo {
+  width: min(320px, 100%);
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0;
+  border: 1px solid var(--border);
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.profile-copy p {
+  margin-top: 0;
+}
+
+@media (max-width: 760px) {
+  .profile-layout {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+.updates-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.update-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--link);
+  border-radius: 12px;
+  padding: 1rem 1.1rem 1rem 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  max-width: 760px;
+}
+
+.update-card p {
+  margin: 0;
+}
+
+.update-date {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-bottom: 0.6rem !important;
+}
+
+.update-title {
+  margin: 0 0 0.55rem 0;
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
