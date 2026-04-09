@@ -1,0 +1,9 @@
+title: tpielok.github.io
+description: Personal site powered by Jekyll and GitHub Pages
+url: "https://tpielok.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+markdown: kramdown
+permalink: /:categories/:title/

@@ -1,0 +1,24 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/
+
+# Bundler / Ruby local artifacts
+Gemfile.lock
+*.gem
+
+# Jekyll local temporary files
+.jekyll/
+
+# Editor and OS local files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Local helper script
+start-local.ps1
