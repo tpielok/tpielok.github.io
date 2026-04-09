@@ -7,3 +7,6 @@ plugins:
   - jekyll-feed
 markdown: kramdown
 permalink: /:categories/:title/
+header_pages:
+  - about.md
+  - updates.md

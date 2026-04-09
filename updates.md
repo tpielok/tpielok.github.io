@@ -1,6 +1,7 @@
 ---
-layout: home
+layout: page
 title: Updates
+permalink: /updates/
 ---
 
 <div class="updates-list">

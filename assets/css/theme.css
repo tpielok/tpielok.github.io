@@ -56,6 +56,12 @@ a {
   color: var(--text);
 }
 
+.site-header .site-title,
+.site-header .site-nav .page-link {
+  color: var(--text) !important;
+  opacity: 1;
+}
+
 .theme-toggle {
   position: fixed;
   right: 1rem;
