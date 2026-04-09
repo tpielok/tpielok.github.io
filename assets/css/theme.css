@@ -62,6 +62,14 @@ a {
   opacity: 1;
 }
 
+.site-header a.site-title:visited,
+.site-header a.site-title:hover,
+.site-header a.site-title:active,
+.site-header a.site-title:focus {
+  color: var(--text) !important;
+  opacity: 1;
+}
+
 .theme-toggle {
   position: fixed;
   right: 1rem;
