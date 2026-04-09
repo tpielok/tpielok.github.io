@@ -158,6 +158,42 @@ html[data-theme="dark"] .site-header a.site-title:focus {
   line-height: 1.3;
 }
 
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.post-content th,
+.post-content td {
+  border: 1px solid var(--border);
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+html[data-theme="dark"] .post-content th {
+  background: #232a39;
+  color: #f2f5fb;
+}
+
+html[data-theme="dark"] .post-content td {
+  background: #151b27;
+  color: #e6ebf5;
+}
+
+html[data-theme="dark"] .post-content tr:nth-child(even) td {
+  background: #101621;
+}
+
+html[data-theme="light"] .post-content th {
+  background: #eef2fa;
+}
+
+html[data-theme="light"] .post-content td {
+  background: #ffffff;
+}
+
 .site-footer .social-media-list .username {
   display: none;
 }
