@@ -22,6 +22,7 @@ html[data-theme="light"] {
   --muted: #5a6474;
   --border: #d2dceb;
   --link: #185abc;
+  --button-bg: #e8edf7;
   --button-text: #1d232f;
 }
 
@@ -109,6 +110,11 @@ html[data-theme="dark"] .site-header a.site-title:focus {
   cursor: pointer;
   font-size: 0.9rem;
   line-height: 1;
+}
+
+html[data-theme="light"] .theme-toggle {
+  background: #e8edf7 !important;
+  opacity: 1;
 }
 
 .theme-toggle:hover {
