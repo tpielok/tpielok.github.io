@@ -210,3 +210,59 @@ html[data-theme="light"] .post-content tr:nth-child(even) td {
   color: var(--text);
   filter: brightness(1.2);
 }
+
+.muted-text {
+  color: var(--muted);
+}
+
+.publications-list {
+  display: grid;
+  gap: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.pub-item {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+}
+
+.pub-title {
+  margin: 0;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.pub-year {
+  color: var(--muted);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.pub-authors,
+.pub-venue,
+.pub-note {
+  margin-top: 0.35rem;
+}
+
+.pub-authors {
+  color: var(--text);
+}
+
+.pub-venue {
+  color: var(--muted);
+}
+
+.pub-note {
+  color: var(--muted);
+  font-size: 0.93rem;
+}
+
+.pub-actions {
+  margin-top: 0.5rem;
+}
+
+.pub-link {
+  font-weight: 600;
+}

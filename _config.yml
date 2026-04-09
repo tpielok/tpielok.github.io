@@ -9,6 +9,7 @@ markdown: kramdown
 permalink: /:categories/:title/
 header_pages:
   - about.md
+  - research.md
   - teaching.md
   - updates.md
 github_username: tpielok
