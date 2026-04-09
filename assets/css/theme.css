@@ -61,6 +61,23 @@ a {
   opacity: 1;
 }
 
+html[data-theme="dark"] .site-nav {
+  background: var(--surface);
+  border-color: var(--border);
+}
+
+html[data-theme="dark"] .site-nav .trigger {
+  background: var(--surface);
+}
+
+html[data-theme="dark"] .site-nav label[for="nav-trigger"] {
+  background: var(--surface);
+}
+
+html[data-theme="dark"] .site-nav .menu-icon > svg path {
+  fill: var(--text);
+}
+
 .site-header a.site-title:visited,
 .site-header a.site-title:hover,
 .site-header a.site-title:active,
