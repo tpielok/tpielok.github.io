@@ -266,3 +266,28 @@ html[data-theme="light"] .post-content tr:nth-child(even) td {
 .pub-link {
   font-weight: 600;
 }
+
+.research-intro {
+  margin-top: 0.2rem;
+  margin-bottom: 1.1rem;
+  color: var(--muted);
+}
+
+.section-block {
+  margin-top: 1.2rem;
+}
+
+.section-title {
+  margin: 0 0 0.8rem 0;
+  font-size: 1.45rem;
+  line-height: 1.2;
+}
+
+.visit-list {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.visit-list li {
+  color: var(--text);
+}
