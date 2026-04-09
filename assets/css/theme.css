@@ -70,6 +70,16 @@ a {
   opacity: 1;
 }
 
+html[data-theme="dark"] .site-header a.site-title,
+html[data-theme="dark"] .site-header a.site-title:visited,
+html[data-theme="dark"] .site-header a.site-title:hover,
+html[data-theme="dark"] .site-header a.site-title:active,
+html[data-theme="dark"] .site-header a.site-title:focus {
+  color: #e9edf4 !important;
+  -webkit-text-fill-color: #e9edf4;
+  opacity: 1 !important;
+}
+
 .theme-toggle {
   position: fixed;
   right: 1rem;
