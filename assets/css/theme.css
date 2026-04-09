@@ -15,14 +15,13 @@ html[data-theme="dark"] {
 }
 
 html[data-theme="light"] {
-  --bg: #ffffff;
-  --surface: #f6f8fb;
+  --bg: #f7f9fc;
+  --surface: #ffffff;
   --card: #f1f5ff;
   --text: #1d232f;
   --muted: #5a6474;
-  --border: #d8deea;
+  --border: #d2dceb;
   --link: #185abc;
-  --button-bg: #e8edf7;
   --button-text: #1d232f;
 }
 
@@ -187,11 +186,15 @@ html[data-theme="dark"] .post-content tr:nth-child(even) td {
 }
 
 html[data-theme="light"] .post-content th {
-  background: #eef2fa;
+  background: #e9eef8;
 }
 
 html[data-theme="light"] .post-content td {
-  background: #ffffff;
+  background: #fcfdff;
+}
+
+html[data-theme="light"] .post-content tr:nth-child(even) td {
+  background: #f4f7fd;
 }
 
 .site-footer .social-media-list .username {
